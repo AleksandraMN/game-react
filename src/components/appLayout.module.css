@@ -1,0 +1,41 @@
+.app {
+	margin: 0 auto;
+	max-width: 310px;
+	height: 100vh;
+	text-transform: uppercase;
+	text-align: center;
+
+}
+.title {
+	font-size: 20px;
+}
+
+.containerButton {
+	display: flex;
+	justify-content: center;
+	margin: 50px;
+}
+
+.button {
+	width: 140px;
+	height: 60px;
+	background-color:rgb(62, 88, 204);
+	color: white;
+	border-radius: 0px solid rgb(62, 88, 204);
+	border-radius: 6px;
+	font-family: inherit;
+	cursor: pointer;
+	font-size: 16px;
+	line-height: normal;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.button:hover {
+	background-color:rgb(118, 137, 225);
+}
+
+.none {
+	display: none;
+}
+
